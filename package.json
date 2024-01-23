@@ -8,7 +8,7 @@
     "build": "parcel build index.html",
     "test": "jest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d dist" 
   },
   "author": "Krutik Soni",
   "license": "ISC",
