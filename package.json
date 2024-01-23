@@ -3,7 +3,7 @@
   "name": "namaste-react-course",
   "version": "1.0.0",
   "description": "This is tutorial for igniting app",
-  "main": "App.js",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
