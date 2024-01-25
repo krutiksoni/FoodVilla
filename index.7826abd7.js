@@ -3675,7 +3675,7 @@ const restaurantList = [
         "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     }
 ];
-const RestaurantCard = ({ cloudinaryImageId, name, cuisines, areaName, lastMileTravelString, costForTwo, avgRatingString })=>{
+const RestaurantCard = ({ cloudinaryImageId, name, cuisines, areaName, costForTwo, avgRatingString })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "card",
         children: [
@@ -3684,34 +3684,34 @@ const RestaurantCard = ({ cloudinaryImageId, name, cuisines, areaName, lastMileT
                 alt: "Image"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 618,
+                lineNumber: 617,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 children: name
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 619,
+                lineNumber: 618,
                 columnNumber: 9
             }, undefined),
             Array.isArray(cuisines) ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: cuisines.join(", ")
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 620,
+                lineNumber: 619,
                 columnNumber: 36
             }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: cuisines
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 620,
+                lineNumber: 619,
                 columnNumber: 69
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                 children: areaName
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 621,
+                lineNumber: 620,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -3723,33 +3723,26 @@ const RestaurantCard = ({ cloudinaryImageId, name, cuisines, areaName, lastMileT
                         ]
                     }, void 0, true, {
                         fileName: "App.js",
-                        lineNumber: 623,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                        children: lastMileTravelString
-                    }, void 0, false, {
-                        fileName: "App.js",
-                        lineNumber: 624,
+                        lineNumber: 622,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                         children: costForTwo
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 625,
+                        lineNumber: 623,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "App.js",
-                lineNumber: 622,
+                lineNumber: 621,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 617,
+        lineNumber: 616,
         columnNumber: 10
     }, undefined);
 };
@@ -3762,13 +3755,13 @@ const Body = ()=>{
                 ...restaurant.info
             }, restaurant.info.id, false, {
                 fileName: "App.js",
-                lineNumber: 632,
+                lineNumber: 630,
                 columnNumber: 14
             }, undefined);
         })
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 630,
+        lineNumber: 628,
         columnNumber: 10
     }, undefined);
 };
@@ -3784,19 +3777,19 @@ const Footer = ()=>{
                     children: "Krutik Soni"
                 }, void 0, false, {
                     fileName: "App.js",
-                    lineNumber: 638,
+                    lineNumber: 636,
                     columnNumber: 30
                 }, undefined),
                 " \xa9 2023 Food Villa"
             ]
         }, void 0, true, {
             fileName: "App.js",
-            lineNumber: 638,
+            lineNumber: 636,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 637,
+        lineNumber: 635,
         columnNumber: 10
     }, undefined);
 };
@@ -3806,17 +3799,17 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 643,
+                lineNumber: 641,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 644,
+                lineNumber: 642,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 645,
+                lineNumber: 643,
                 columnNumber: 13
             }, undefined)
         ]
@@ -3869,7 +3862,7 @@ _c5 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 699,
+    lineNumber: 697,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3, _c4, _c5;
