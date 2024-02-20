@@ -18,10 +18,10 @@ const RestaurantMenu = () => {
             const json = await data.json();
             console.log('API Response:', json);
 
-            const restaurantData = json.data?.cards?.[0]?.card?.card?.info || {};
+            const restaurantData = json.data?.cards?.[2]?.card?.card?.info || {};
             setRestaurant(restaurantData);
 
-            const menuData = json.data?.cards?.[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
+            const menuData = json.data?.cards?.[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
             setMenuData(menuData);
         } catch (error) {
             console.error('Error fetching restaurant data:', error);
