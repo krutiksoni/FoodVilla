@@ -35151,9 +35151,9 @@ const RestaurantMenu = ()=>{
         try {
             const data = await fetch(`https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=23.022505&lng=72.5713621&restaurantId=${resid}&catalog_qa=undefined&submitAction=ENTER`);
             const json = await data.json();
-            const restaurantData = json.data?.cards?.[0]?.card?.card?.info || {};
+            const restaurantData = json.data?.cards?.[2]?.card?.card?.info || {};
             setRestaurant(restaurantData);
-            const menuData = json.data?.cards?.[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
+            const menuData = json.data?.cards?.[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
             setMenuData(menuData);
         } catch (error) {
             console.error("Error fetching restaurant data:", error);
